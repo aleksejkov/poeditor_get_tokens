@@ -16,7 +16,7 @@ data = {'api_token' : API_KEY,
 
 <h3>Request example</h3>
 
-```
+```bash
 curl -X POST https://api.poeditor.com/v2/terms/list \
      -d api_token="2182c25ea625e2d505e1c233e0a10a48" \
      -d id="7717" \

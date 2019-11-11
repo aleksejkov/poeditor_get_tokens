@@ -18,20 +18,18 @@ def main():
 
     json_file = PATH + '/' + language + '.json'
 
-    data = {'api_token':API_KEY, 
-            'id':API_ID, 
+    data = {'api_token':API_KEY,
+            'id':API_ID,
             'language':language
         }
     dataParse = dict()
 
     try:
         responseData = json.loads(requests.post(url = API_ENDPOINT, data = data).text)
-
         for line in responseData["result"]["terms"]:
             key = line["term"]
             value = line["translation"]["content"]
             dataParse[key] = value
-
         with open(json_file, 'w', encoding="utf-8") as json_file:
             json.dump(dataParse, json_file, indent=4, ensure_ascii=False)
     except:
