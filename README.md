@@ -1,5 +1,6 @@
 <h2>POEditor API "List Project Terms"</h2>
 <a href="https://www.codacy.com/manual/aleksejkov/poeditor_get_tokens?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=aleksejkov/poeditor_get_tokens&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/5494ed37af304648a29dda009f2a8cc8"/></a>
+<a href="https://github.com/aleksejkov/poeditor_get_tokens/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/aleksejkov/poeditor_get_tokens"></a>
 <p>To perform an action using the API, send a request to the API endpoint and a response will then be sent back to you.</p>
 <p>The POEditor API consists of a set of callable methods.</p>
 <p>The request should be POST.</p>
