@@ -16,6 +16,10 @@ data = {'api_token' : API_KEY,
         }
 ```
 
+```bash
+python3 main.py <language_code>
+```
+
 <h3>Request example</h3>
 
 ```bash
